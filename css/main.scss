@@ -11,8 +11,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .container{
-    max-width: 1460px;
-    margin: 0 auto; 
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 // Перша секція 
 .section-first{
@@ -542,7 +543,6 @@ a {
 }
 
 .wrapper {
-	max-width: 1440px;
 	margin: 0 auto;
 	overflow: hidden;
 }
