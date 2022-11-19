@@ -1,0 +1,25 @@
+@import "variables";
+
+@mixin desktop(){
+  @media(max-width: map-get($breakpoints,xll)){
+    @content;
+  }
+}
+
+@mixin tablet(){
+  @media(max-width: map-get($breakpoints,xl)){
+    @content;
+  }
+}
+
+@mixin landscape_mobile(){
+  @media(max-width: map-get($breakpoints,md)){
+    @content;
+  }
+}
+
+@mixin mobile(){
+  @media(max-width: map-get($breakpoints,sm)){
+    @content;
+  }
+}
